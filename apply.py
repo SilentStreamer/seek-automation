@@ -228,7 +228,6 @@ class ApplicationPipeline:
                 
                 for email in emails:
                     if email in applied_emails:
-                        print(email, job_id)
                         continue
                     # Generate cover letter
                     cover_letter = self.agent.prepare_cover_letter(job, self.resume, email)
@@ -249,7 +248,7 @@ class ApplicationPipeline:
                         self.applied.append([email, job_id])
                     else:
                         print(f"Failed to send application to {email}, {job_id}")
-                # Wait 30sec to not overload api
+                    # Wait 30sec to not overload api can be removed if using official apis
                     time.sleep(30)
                     
             except Exception as e:

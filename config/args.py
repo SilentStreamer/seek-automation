@@ -6,7 +6,7 @@ def add_args():
     parser.add_argument('--first_name', 
                         type=str, 
                         help='Name of the user',
-                        default="Ayushi",
+                        default="Ayushi Kumari",
                         required=True)
 
     parser.add_argument('--resume_pdf_path', 

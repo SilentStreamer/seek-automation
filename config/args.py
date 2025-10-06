@@ -6,6 +6,7 @@ def add_args():
     parser.add_argument('--first_name', 
                         type=str, 
                         help='Name of the user',
+                        default="Ayushi",
                         required=True)
 
     parser.add_argument('--resume_pdf_path', 
@@ -34,7 +35,7 @@ def add_args():
                         default="smtp.gmail.com")
 
     # This is set to True by default as seeks largest english userbase is Australia & NZ
-    parser.add_argument('--australian_language', 
+    parser.add_argument('--english_language', 
                         type=bool,
                         help='Convert llm output to australian type language',
                         default=True)

@@ -1,10 +1,12 @@
 {
     "searchTerms": [
-        "Junior Software Engineer",
-        "Software Engineer",
-        "Software Developer",
-        "Junior Software Developer",
-        "Entry Level Software Developer"
+        "Junior Software Engineer Intern",
+        "Software Engineer Intern",
+        "Software Developer Intern",
+        "Junior Software Developer Intern",
+        "Entry Level Software Developer Intern",
+        "Intern"
+        ""
     ],
     "maxResults": 50,
     "SortBy": "ListedDate",
